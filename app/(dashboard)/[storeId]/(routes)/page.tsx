@@ -36,7 +36,7 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
 
                         <CardContent>
                             <div className="text-2xl font-bold">
-                                $ 50.00
+                                Rp 500.000,00
                             </div>
                         </CardContent>
                     </Card>
