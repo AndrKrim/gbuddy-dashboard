@@ -14,7 +14,7 @@ const dummyOrders = [
     address: "123 Main St",
     orderItems: [
       {
-        product: { name: "Product 1", price: 129.00 },
+        product: { name: "Product 1", price: 12900 },
       },
     ],
     isPaid: true,
@@ -26,7 +26,7 @@ const dummyOrders = [
     address: "456 Elm St",
     orderItems: [
       {
-        product: { name: "Product 3", price: 190.990 },
+        product: { name: "Product 3", price: 190990 },
       },
     ],
     isPaid: false,
@@ -38,7 +38,7 @@ const dummyOrders = [
     address: "789 Oak St",
     orderItems: [
       {
-        product: { name: "Product 4", price: 390.990 },
+        product: { name: "Product 4", price: 390990 },
       },
     ],
     isPaid: true,
