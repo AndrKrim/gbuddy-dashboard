@@ -36,7 +36,7 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
 
                         <CardContent>
                             <div className="text-2xl font-bold">
-                                Rp 500.000
+                                Rp 1.500.000
                             </div>
                         </CardContent>
                     </Card>
@@ -48,7 +48,7 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
                         </CardHeader>
                                 
                         <CardContent>
-                            <div className="text-2xl font-bold">+17</div>
+                            <div className="text-2xl font-bold">+3</div>
                         </CardContent>
                     </Card>
                         
@@ -66,6 +66,15 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
                         </CardContent>
                     </Card>
                 </div>
+                <Card className="col-span-4">
+                    <CardHeader>
+                        <CardTitle>Overview</CardTitle>
+                    </CardHeader>
+                    
+                    <CardContent className="pl-2">
+                        <Overview data={graphRevenue} />
+                    </CardContent>
+                </Card>
             </div>
         </div>
     );
